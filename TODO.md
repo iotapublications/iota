@@ -1,0 +1,1 @@
+- Continue CMS config: https://www.netlifycms.org/docs/jekyll/
