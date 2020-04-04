@@ -1,9 +1,9 @@
-I"Ï<div class="container border-bottom">
+I"È<div class="container border-bottom">
   <div class="card my-5 pb-5 border-0">
     <div class="row">
       <div class="col-md-4">
         <div>
-          <a href="//articles/2019-10-10-lorem.html" class="text-reset">
+          <a href="/articles/2019-10-10-lorem.html" class="text-reset">
             <h3>Yet another lorem ipsum</h3>
           </a>
           <p class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum sagittis lacus, laoreet luctus ligula laoreet ut. Vestibulum ullamcorper accumsan velit vel vehicula. Proin tempor lacus arcu. Nunc at elit condimentum, semper nisi et, condimentum mi. In venenatis blandit nibh at sollicitudin. Vestibulum dapibus mauris at orci maximus pellentesque. Nullam id elementum ipsum. Suspendisse cursus lobortis viverra. Proin et erat at mauris tincidunt porttitor vitae ac dui. Donec vulputate l</p>
@@ -23,7 +23,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/2005-06-12-stay-hungry-stay-foolish.html">
+              <a class="text-reset" href="/articles/2005-06-12-stay-hungry-stay-foolish.html">
                 <h5 class="card-title">Stay Hungry, Stay Foolish</h5>
               </a>
               <p class="card-text">Steve Jobs at Stanford during his 2005 Commencement speech.</p>
@@ -42,7 +42,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/1968-08-23-I-have-a-dream.html">
+              <a class="text-reset" href="/articles/1968-08-23-I-have-a-dream.html">
                 <h5 class="card-title">I have a Dream</h5>
               </a>
               <p class="card-text">Dr. King's speech to end discrimination once and for all in America.</p>
@@ -61,7 +61,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/1963-06-26-ich-bin-ein-berliner.html">
+              <a class="text-reset" href="/articles/1963-06-26-ich-bin-ein-berliner.html">
                 <h5 class="card-title">Ich bin ein Berliner</h5>
               </a>
               <p class="card-text">All free men, wherever they may live, are citizens of Berlin - says JFK.</p>
@@ -80,7 +80,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/1940-06-04-we-shall-fight-on-the-beaches.html">
+              <a class="text-reset" href="/articles/1940-06-04-we-shall-fight-on-the-beaches.html">
                 <h5 class="card-title">We Shall Fight on the Beaches</h5>
               </a>
               <p class="card-text">In this emotive speech, Churchill raises everyone's spirit to fight the Nazis back.</p>
@@ -99,7 +99,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/1837-01-01-the-american-scholar.html">
+              <a class="text-reset" href="/articles/1837-01-01-the-american-scholar.html">
                 <h5 class="card-title">The American Scholar</h5>
               </a>
               <p class="card-text">This address was delivered at Cambridge in 1837, before the Harvard Chapter of the Phi Beta Kappa Society.</p>
@@ -118,7 +118,7 @@
         <div class="row no-gutters">
           <div class="col-md-8">
             <div class="card-body">
-              <a class="text-reset" href="//articles/1776-02-14-common-sense.html">
+              <a class="text-reset" href="/articles/1776-02-14-common-sense.html">
                 <h5 class="card-title">Common Sense</h5>
               </a>
               <p class="card-text">Government should be getting out of the way, or else.</p>
