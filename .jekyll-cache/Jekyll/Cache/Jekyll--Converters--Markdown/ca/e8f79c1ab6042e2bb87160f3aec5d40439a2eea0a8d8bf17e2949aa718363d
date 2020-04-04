@@ -1,0 +1,21 @@
+I"ô<div class="container border-bottom">
+  <div class="card my-5 pb-5 border-0">
+    <div class="row">
+      <div class="col-md-4">
+        <div>
+          <a href="/Onassis/tutorials/2019-10-18-welcome-to-jekyll.html" class="text-reset">
+            <h3>Welcome to Jekyll!</h3>
+          </a>
+          <p class="card-text"><p>Youâ€™ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+</p>
+          <p class="card-text"><small class="text-muted">18 October 2019</small></p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <img src="https://i.ytimg.com/vi/s5qnuPEzf2w/maxresdefault.jpg" class="w-100" alt="image of Welcome to Jekyll!" />
+      </div>
+    </div>
+  </div>
+</div>
+
+:ET
