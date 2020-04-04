@@ -3,7 +3,7 @@ layout: post
 title:  "We Shall Fight on the Beaches"
 author: Winston Churchill
 date:   1940-06-04 20:20:35 +0200
-image: http://hdblackwallpaper.com/wallpaper/2015/07/black-and-white-landscape-photography-30-free-hd-wallpaper.jpg
+image: https://hdblackwallpaper.com/wallpaper/2015/07/black-and-white-landscape-photography-30-free-hd-wallpaper.jpg
 rating: 4
 description: In this emotive speech, Churchill raises everyone's spirit to fight the Nazis back.
 ---

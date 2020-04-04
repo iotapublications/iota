@@ -3,7 +3,7 @@ layout: post
 title:  "Lorem Ipsum"
 author: Anonymous
 date:   2019-10-18 10:20:35 +0200
-image: http://3.bp.blogspot.com/-n08ntobMBhI/UMTDReijN0I/AAAAAAAABqg/MIUudl42aSQ/s1600/black+and+white+scenic+landscape+wallpaper+hd+%2813%29.jpg
+image: https://3.bp.blogspot.com/-n08ntobMBhI/UMTDReijN0I/AAAAAAAABqg/MIUudl42aSQ/s1600/black+and+white+scenic+landscape+wallpaper+hd+%2813%29.jpg
 rating: 2
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "I have a Dream"
 author: Dr. Martin Luther King
 date:   1968-08-23 20:20:35 +0200
-image: http://www.technosamrat.com/wp-content/uploads/2012/05/Black-and-White-Landscape-Wallpaper.jpg
+image: https://www.technosamrat.com/wp-content/uploads/2012/05/Black-and-White-Landscape-Wallpaper.jpg
 rating: 3
 description: Dr. King's speech to end discrimination once and for all in America.
 ---

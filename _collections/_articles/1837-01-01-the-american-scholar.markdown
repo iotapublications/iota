@@ -3,7 +3,7 @@ layout: post
 title:  "The American Scholar"
 author: Ralph Waldo Emerson
 date:   1940-06-04 20:20:35 +0200
-image: http://hdblackwallpaper.com/wallpaper/2015/07/black-and-white-landscape-photography-1-background-wallpaper.jpg
+image: https://hdblackwallpaper.com/wallpaper/2015/07/black-and-white-landscape-photography-1-background-wallpaper.jpg
 rating: 4
 description: This address was delivered at Cambridge in 1837, before the Harvard Chapter of the Phi Beta Kappa Society.
 ---
