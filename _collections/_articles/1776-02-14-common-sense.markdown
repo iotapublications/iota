@@ -3,7 +3,7 @@ layout: post
 title:  Common Sense
 author: Thomas Payne
 date:   1776-02-14 20:20:35 +0200
-image: http://3.bp.blogspot.com/-n08ntobMBhI/UMTDReijN0I/AAAAAAAABqg/MIUudl42aSQ/s1600/black+and+white+scenic+landscape+wallpaper+hd+%2813%29.jpg
+image: https://3.bp.blogspot.com/-n08ntobMBhI/UMTDReijN0I/AAAAAAAABqg/MIUudl42aSQ/s1600/black+and+white+scenic+landscape+wallpaper+hd+%2813%29.jpg
 rating: 2
 description: Government should be getting out of the way, or else.
 ---
