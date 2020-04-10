@@ -12,7 +12,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'author' }
       - { label: 'Short Name (lowercase -- e.g. boris)', name: 'short_name', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
@@ -26,7 +26,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image'}
@@ -50,7 +50,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image'}
@@ -74,7 +74,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image'}
@@ -99,8 +99,8 @@ collections:
         name: 'about'
         file: '_pages/about.md'
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section' }
+          - { label: 'Title', name: 'title', widget: 'string', default: 'About' }
+          - { label: 'Layout', name: 'layout', widget: 'string', default: 'section' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "config"
     label: "Config"
