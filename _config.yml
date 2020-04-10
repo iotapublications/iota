@@ -44,11 +44,18 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  articles:
+  authors:
     output: true
-  letters:
+  history:
     output: true
-  speeches:
+  politics:
     output: true
-  tutorials:
+  science:
     output: true
+
+#  letters:
+#    output: true
+#  speeches:
+#    output: true
+#  tutorials:
+#    output: true

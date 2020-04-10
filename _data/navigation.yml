@@ -1,0 +1,15 @@
+navigation:
+- name: Home
+  link: /
+- name: All
+  link: /articles
+- name: History
+  link: /history
+- name: Politics
+  link: /politics
+- name: Science
+  link: /science
+- name: Authors
+  link: /authors
+- name: About
+  link: /about

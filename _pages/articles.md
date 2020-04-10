@@ -1,7 +1,8 @@
 ---
 layout: section
-title: articles
+title: Articles
 permalink: /articles
 ---
-{% include sections/last_post.html last_post=site.articles.last%}
-{% include sections/items_except_last.html items=site.articles%}
+{% assign articles = (site.documents | where: "layout","post") %}
+{% include sections/last_post.html last_post=articles.last%}
+{% include sections/items_except_last.html items=articles%}

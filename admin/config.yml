@@ -5,15 +5,115 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/images'
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
+  - name: 'authors'
+    label: 'Authors'
+    folder: '_collections/_authors'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Short Name (lowercase -- e.g. boris)', name: 'short_name', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Bio', name: 'body', widget: 'markdown'}
+  - name: 'science'
+    label: 'Science'
+    folder: '_collections/science'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image'}
+      - { label: 'Rating', name: 'rating', widget: number, valueType: "int"}
+      - { label: 'Description', name: 'description', widget: string}
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: 'name',
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'history'
+    label: 'History'
+    folder: '_collections/history'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image'}
+      - { label: 'Rating', name: 'rating', widget: number, valueType: "int"}
+      - { label: 'Description', name: 'description', widget: string}
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: 'name',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'politics'
+    label: 'Politics'
+    folder: '_collections/politics'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image'}
+      - { label: 'Rating', name: 'rating', widget: number, valueType: "int"}
+      - { label: 'Description', name: 'description', widget: string}
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: 'name',
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: true
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'pages/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: true
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}

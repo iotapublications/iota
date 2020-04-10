@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-md-12">
     <h3 class="d-flex justify-content-center border-bottom">
-      <span class="m-1">Personal Favourites</span>
+      <span class="m-1">Highlights</span>
     </h3>
   </div>
 </div>
 
-{% assign posts= site.articles | concat: site.letters | concat: site.speeches | concat: site.tutorials %}
+{% assign posts = (site.documents | where: "layout","post") | sort: 'date' | reverse | slice: 0, 6 %}
 {% assign top_posts = posts | sort: "rating" | reverse | slice: 0, 5 %}
 {% for post in top_posts %}
   <div class="card mb-3 border-0">
