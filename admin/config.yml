@@ -104,6 +104,7 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "config"
     label: "Config"
+    delete: false
     editor:
       preview: false
     files:
@@ -115,5 +116,17 @@ collections:
             name: "navigation"
             widget: "list"
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Link, name: link, widget: string}
+              - {label: 'Name', name: 'name', widget: 'string'}
+              - {label: 'Link', name: 'link', widget: 'string'}
+      - label: "Global Settings"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Author', name: 'author', widget: 'string'}
+          - {label: 'Email', name: 'email', widget: 'string'}
+          - {label: 'Description', name: 'description', widget: 'string'}
+          - {label: 'Image', name: 'image', widget: 'image'}
+          - {label: 'Tagline', name: 'tagline', widget: 'string'}
+          - {label: 'Twitter Username', name: 'twitter_username', widget: 'string'}
+          - {label: 'GitHub Username', name: 'github_username', widget: 'string'}

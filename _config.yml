@@ -16,8 +16,12 @@
 title: Iota
 author: Iota Publications
 email: iotapublications@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   This is the description of my site. For all intents and purposes, it's complete.
+image: https://www.simplek12.com/wp-content/uploads/2015/07/shutterstock_173128658.jpg
+tagline: Hi! We're Iota Publications.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 google_analytics: '' # change this to your GA key
 url: "https://iota.gq" # the base hostname & protocol for your site, e.g. http://example.com
