@@ -97,7 +97,7 @@ collections:
     files:
       - label: 'About Page'
         name: 'about'
-        file: 'pages/about.md'
+        file: '_pages/about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'section' }
@@ -112,7 +112,7 @@ collections:
         file: "_data/navigation.yml"
         fields:
           - label: "Navigation Items"
-            name: "items"
+            name: "navigation"
             widget: "list"
             fields:
               - {label: Name, name: name, widget: string}
