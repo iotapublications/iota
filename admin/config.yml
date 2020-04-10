@@ -10,7 +10,7 @@ collections:
     folder: '_collections/_authors'
     create: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
       - { label: 'Short Name (lowercase -- e.g. boris)', name: 'short_name', widget: 'string' }
@@ -24,7 +24,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -48,7 +48,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -72,7 +72,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -93,7 +93,7 @@ collections:
   - name: 'pages'
     label: 'Pages'
     editor:
-      preview: true
+      preview: false
     files:
       - label: 'About Page'
         name: 'about'
@@ -105,7 +105,7 @@ collections:
   - name: "config"
     label: "Config"
     editor:
-      preview: true
+      preview: false
     files:
       - label: "Navigation"
         name: "navigation"
