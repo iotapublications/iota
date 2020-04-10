@@ -20,7 +20,7 @@ collections:
       - { label: 'Bio', name: 'body', widget: 'markdown'}
   - name: 'science'
     label: 'Science'
-    folder: '_collections/science'
+    folder: '_collections/_science'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
@@ -44,7 +44,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'history'
     label: 'History'
-    folder: '_collections/history'
+    folder: '_collections/_history'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
@@ -68,7 +68,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'politics'
     label: 'Politics'
-    folder: '_collections/politics'
+    folder: '_collections/_politics'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
