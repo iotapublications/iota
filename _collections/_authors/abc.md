@@ -1,8 +1,8 @@
 ---
 layout: author
-short_name: abc
-name: Abc Def
-position: Writer
+short_name: euan
+name: Euan Ong
+position: Webmaster
 image: https://picsum.photos/500
 ---
-Some bio text here I guess?
+TODO: write something here
