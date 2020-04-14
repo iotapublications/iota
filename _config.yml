@@ -1,52 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Iota
-author: Iota Publications
-email: iotapublications@gmail.com
-
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the description of my site. For all intents and purposes, it's complete.
-image: https://www.simplek12.com/wp-content/uploads/2015/07/shutterstock_173128658.jpg
-tagline: Hi! We're Iota Publications.
-
-baseurl: "" # the subpath of your site, e.g. /blog
-google_analytics: '' # change this to your GA key
-url: "https://iota.gq" # the base hostname & protocol for your site, e.g. http://example.com
-include: ["_pages"]
-collections_dir: _collections
-twitter_username: iotapublications
-github_username: iotapublications
-
-# Build settings
-markdown: kramdown
+google_analytics: ""
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
+twitter_username: iotapublications
+collections_dir: _collections
+include:
+  - _pages
+author: Iota Publications
+email: iotapublications@gmail.com
+description: This is the description of my site. For all intents and purposes,
+  it's complete.
+tagline: Hi! We're Iota.
+markdown: kramdown
+url: https://iota.gq
+github_username: iotapublications
 collections:
   authors:
     output: true
@@ -56,10 +22,6 @@ collections:
     output: true
   science:
     output: true
-
-#  letters:
-#    output: true
-#  speeches:
-#    output: true
-#  tutorials:
-#    output: true
+title: Iota
+image: https://www.simplek12.com/wp-content/uploads/2015/07/shutterstock_173128658.jpg
+baseurl: ""
