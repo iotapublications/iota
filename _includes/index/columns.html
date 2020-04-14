@@ -1,6 +1,6 @@
 <section class="row m-2">
   <div class="card-columns">
-    {% assign articles = (site.documents | where: "layout","post") | sort: 'date' | reverse | slice: 0, 6 %}
+    {% assign articles = (site.documents | where: "layout","post") | sort: 'date' | reverse | slice: 0, 3 %}
     {% for item in articles %}
       <div class="card p-3 border-0 zoom">
         <img src="{{ item.image }}" class="card-img-top" alt="Image of {{ item.title }}">
