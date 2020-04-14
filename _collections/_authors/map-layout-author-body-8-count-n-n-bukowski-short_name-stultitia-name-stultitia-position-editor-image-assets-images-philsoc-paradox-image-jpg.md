@@ -1,6 +1,6 @@
 ---
-layout: Author
-short_name: Stultitia
+layout: author
+short_name: stultitia
 name: Stultitia
 position: Editor
 image: /assets/images/philsoc-paradox-image.jpg
