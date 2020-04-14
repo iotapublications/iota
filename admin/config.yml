@@ -6,6 +6,7 @@ backend:
 media_folder: 'assets/images'
 collections:
   - name: 'authors'
+    identifier_field: name
     label: 'Authors'
     folder: '_collections/_authors'
     create: true
